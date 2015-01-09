@@ -1,0 +1,14 @@
+{
+  "name": "moj_elements",
+  "homepage": "https://github.com/ministryofjustice/moj_elements",
+  "_release": "a6edabd346",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "a6edabd3466c6da8b79f38f94aa1dffa1861f02e"
+  },
+  "_source": "git://github.com/ministryofjustice/moj_elements.git",
+  "_target": "*",
+  "_originalSource": "ministryofjustice/moj_elements",
+  "_direct": true
+}

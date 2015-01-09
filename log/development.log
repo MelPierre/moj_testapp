@@ -1,0 +1,2670 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:50:02 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 22ms (Views: 13.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:50:02 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2015-01-07 10:50:05 +0000
+Processing by Rails::InfoController#properties as */*
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.6/lib/rails/templates/rails/info/properties.html.erb (0.4ms)
+Completed 200 OK in 86ms (Views: 6.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:51:45 +0000
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/railties-4.1.6/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:57:17 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (704.7ms)
+Completed 500 Internal Server Error in 1175ms
+
+ActionView::Template::Error (undefined method `phase' for #<Rails::Application::Configuration:0x000001058a3760>):
+    64: 
+    65:   </head>
+    66: 
+    67:   <body class="<%= content_for?(:body_classes) ? raw("#{yield(:body_classes)}") : "#{config_item(:phase).to_s.downcase} #{config_item(:product_type).to_s.downcase}" %>
+    68: ">
+    69:     <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    70: 
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___613888734598887295_2166937700'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:59:29 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (2.9ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (undefined method `phase' for #<Rails::Application::Configuration:0x000001058a3760>):
+    64: 
+    65:   </head>
+    66: 
+    67:   <body class="<%= content_for?(:body_classes) ? raw("#{yield(:body_classes)}") : "#{config_item(:phase).to_s.downcase} #{config_item(:product_type).to_s.downcase}" %>
+    68: ">
+    69:     <script type="text/javascript">document.body.className = ((document.body.className) ? document.body.className + ' js-enabled' : 'js-enabled');</script>
+    70: 
+  app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___613888734598887295_2166937700'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (108.7ms)
+Completed 200 OK in 160ms (Views: 153.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 10:59:59 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.3ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.7ms)
+Completed 200 OK in 25ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 11:01:50 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.3ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 32ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 11:02:16 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 11:31:45 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 34ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs.js'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:18)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb__1174426312707255424_2210405980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__1174426312707255424_2210405980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 11:57:44 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:15)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:39:36 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:40:53 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (couldn't find file 'moj_elements/src/stylesheets/moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:46:36 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (couldn't find file 'moj_elements/src/stylesheets/moj.tabs.scss'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:48:11 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (couldn't find file '../../../../vendor/assets/moj_elements/src/stylesheets/moj.tabs.scss'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:49:21 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (couldn't find file '../../../../vendor/assets/moj_elements/src/stylesheets/moj.tabs.css'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:52:44 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (couldn't find file '../../../../vendor/assets/moj_elements/src/stylesheets/moj.tabs.css'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/stylesheets/application.css:18)):
+    1: 
+    2: <% content_for :stylesheets do %>
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+  app/views/layouts/application.html.erb:3:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:2:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:53:06 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:18)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:54:15 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 28ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:18)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 12:59:47 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (couldn't find file 'moj_elements/src/javascripts/moj'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:19)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:00:08 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (12.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (50.0ms)
+Completed 200 OK in 100ms (Views: 100.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.3ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (31.7ms)
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:00:36 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (2.1ms)
+Completed 200 OK in 31ms (Views: 30.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:08:00 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 35ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:08:02 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (2.0ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.8ms)
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:08:03 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:11 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'mojtabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:13 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:14 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:19 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:20 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:20 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:20 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:20 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:40 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:41 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:41 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:41 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 50ms (Views: 50.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.1ms)
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:08:43 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:08:45 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 19ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:06 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:06 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:07 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 23ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:07 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (9.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:07 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:07 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:08 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:19 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:19 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:20 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 30ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:09:22 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:09:24 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 18ms
+
+ActionView::Template::Error (couldn't find file 'moj_tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:13:23 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___1717977475968787760_2182421200'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:13:49 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 29ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:16:12 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (53.6ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (14.6ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 13:16:13 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 13:16:34 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:27:12 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:30:36 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.9ms)
+Completed 200 OK in 30ms (Views: 30.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 15:30:50 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:31:10 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 17ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:40:15 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.7ms)
+Completed 200 OK in 49ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.2ms)
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 15:40:16 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:40:55 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (couldn't find file 'moj.tabs'
+  (in /Users/melpierre/Sites/moj/testapp/app/assets/javascripts/application.js:20)):
+    3:   <%= stylesheet_link_tag "application", media: "all" %>
+    4: <% end %>
+    5: <% content_for :javascripts do %>
+    6:   <%= javascript_include_tag "application" %>
+    7: <% end %>
+    8: <%= render template: "layouts/moj_template" %>
+  app/views/layouts/application.html.erb:6:in `block in _app_views_layouts_application_html_erb___985847471978981601_2206614980'
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___985847471978981601_2206614980'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 64ms (Views: 63.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (10.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 15:42:54 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.0ms)
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:42:58 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+ActionController::RoutingError (No route matches [GET] "/vendor/assets/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.4ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/moj.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:42:59 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 66ms (Views: 65.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/moj_elements/src/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+ActionController::RoutingError (No route matches [GET] "/moj_elements/src/stylesheets/moj.tabs.css"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (11.2ms)
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:49:56 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.6ms)
+Completed 200 OK in 39ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/build/stylesheets/moj.tabs.css" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/assets/favicon.ico" for 127.0.0.1 at 2015-01-07 15:50:44 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.0ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/build/stylesheets/moj.tabs.css?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-07 15:51:37 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (95.7ms)
+Completed 200 OK in 182ms (Views: 175.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/build/stylesheets/moj.tabs.css?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-08 10:09:50 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.5ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (1.8ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/build/stylesheets/moj.tabs.css?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-08 10:11:21 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-08 10:11:22 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-08 10:11:22 +0000
+
+
+Started GET "/" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+Processing by StaticController#home as HTML
+  Rendered static/home.html.erb within layouts/application (0.8ms)
+  Rendered /Users/melpierre/.rvm/rubies/ruby-2.1.0/lib/ruby/gems/2.1.0/gems/moj_template-0.23.0/app/views/layouts/moj_template.html.erb (46.7ms)
+Completed 200 OK in 108ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/govuk-template.css" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/fonts.css" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/moj-template.css" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/govuk-template-print.css" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/build/stylesheets/moj.tabs.css?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/gov.uk_logotype_crown.png" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/govuk-template.js" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/moj.js" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/vendor/jquery/jquery-1.11.0.min.js" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/build/javascripts/moj.tabs.js?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/images/open-government-licence_2x.png" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
+
+
+Started GET "/assets/images/govuk-crest-2x.png" for 127.0.0.1 at 2015-01-08 14:51:05 +0000
