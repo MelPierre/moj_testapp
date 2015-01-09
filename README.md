@@ -4,12 +4,12 @@ A ruby application shell using the moj_template and moj_elements
 Open the Gem file and add the following gem and save:
 •	gem 'moj_template', ‘0.21.0'
 •	Add dependencies in application.rb as set out in the template instructions:
-  	config.app_title = ''
-  	config.proposition_title = ''
-  	config.phase = ''
-  	config.product_type = ''
-  	config.feedback_url = ''
-  	config.ga_id = ''
+  	* config.app_title = ''
+  	* config.proposition_title = ''
+  	* config.phase = ''
+  	* config.product_type = ''
+  	* config.feedback_url = ''
+  	* config.ga_id = ''
 
 •	Run bundle install, when complete
 •	start the rails server ( rails s),  check project (http://0.0.0.0:3000)
