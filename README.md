@@ -3,7 +3,8 @@ A ruby application shell using the moj_template and moj_elements
 
 Open the Gem file and add the following gem and save:
 * gem 'moj_template', ‘0.21.0'
-*	Add dependencies in application.rb as set out in the template instructions:
+
+Add dependencies in application.rb as set out in the template instructions:
 
 * config.app_title = ''
 * config.proposition_title = ''
@@ -40,9 +41,9 @@ end
 #Add view folder and a test home page (static/home.html.erb)
 
 
-Add App Name 
-Add input boxes for First name: & Last name: 
-Add an input/submit box with class='button
+* Add App Name 
+* Add input boxes for First name: & Last name: 
+* Add an input/submit box with class='button
 
 This will then show the formatting and sytles
 
