@@ -12,6 +12,7 @@
  *
  *= require_tree .
  *= require_self
+ *= require jquery.gridster.css
  *= require build/stylesheets/moj.tabs
  */
 
